@@ -1,0 +1,58 @@
+@media screen and (max-width:800px) {
+    #desktop-nav{
+        display: none;
+    }
+
+    #mobile-nav{
+        display:flex;
+    }
+}
+
+
+@media  screen and (max-width:1185px) {
+    .profile img{
+        width:10rem;
+    }
+
+    .about-section-image{
+        height:10rem;
+    }
+
+    .about-section-content{
+        width:30rem;
+        font-size:1rem;
+    }
+
+
+}
+
+@media  screen and (max-width:700px) {
+    about-section-image{
+        height:40rem;
+        
+    }
+    .about-section-image img{
+        height:40rem;
+    }
+}
+
+@media  screen and (max-width:1050px) {
+    .profile img{
+        width:15rem;
+    }
+}
+
+@media screen and (max-width:580px){
+    #mobile-nav{
+        height: 10vh;
+    }
+ 
+
+    .ach{
+        width:20rem;
+    }
+
+
+   
+    
+}

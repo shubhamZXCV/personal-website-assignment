@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham</title>
+    <link rel="stylesheet" href="light.css" id="light">
+    <link rel="stylesheet" href="mediaQuery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="Assets/profile-image.png" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo" ">Shubham Goel</div>
+        <div >
+          <img src="Assets/moon.png" alt="" class="mode" onclick="toggleMode()">
+        </div>
+        <ul class="nav-links">
+            
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#blog-section">Blogs</a></li>
+            <li><a href="#education-section">Education</a></li>
+            <li><a href="#skills-section">Skills</a></li>
+            <li><a href="#achievement-section">Achievement</a></li>
+
+        </ul>
+    </nav>
+    <nav id="mobile-nav">
+        <div class="logo">Shubham Goel</div>
+        <div >
+          <img src="Assets/moon.png" alt="" class="mode" onclick="toggleMode()">
+        </div>
+        <div class="menu">
+          
+            <div class="menu-icon" onclick="toggleMenu()">
+                 <span></span>
+                 <span></span>
+                 <span></span>
+            </div>
+            <ul class="menu-links">
+                \
+                <li><a href="#about-section" onclick="toggleMenu()" >About</a></li>
+                <li><a href="#blog-section" onclick="toggleMenu()" >Blogs</a></li>
+                <li><a href="#education-section" onclick="toggleMenu()" >Education</a></li>
+                <li><a href="#skills-section" onclick="toggleMenu()" >Skills</a></li>
+                <li><a href="#achievement-section" onclick="toggleMenu()" >Achievement</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+    <section id="landing-page">
+        <div class="profile">
+            <img src="Assets/profile-image.png" alt="profile">
+        </div>
+        <div class="section-content">
+            <span>Hello, I'm</span>
+            <h3>Shubham Goel
+              </h3>
+            <div><span id="element" class="college">Student At IIIT Hyderabad</span></div>
+
+            <div class="section-buttons">
+                <button class="cv-button" onclick="window.open('Assignment 1.pdf')">Download CV</button>
+              <a href="#contact"><button class="contact-button">Contact Info</button></a>  
+            </div>
+            <div class="contact-icons">
+                <a href="mailto:shubham.goel@students.iiit.ac.in" ><img src="Assets/mail.png" alt="github"></a>
+               <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank"><img src="Assets/linkedin.png" alt="linkedin"></a> 
+                
+                <a href="https://github.com/shubhamZXCV" target="_blank"><img src="Assets/github.png" alt="github"></a>
+                <a href="https://github.com/shubhamZXCV" target="_blank"><img src="Assets/instagram.png" alt="github"></a>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="blog-section">
+        <div class="blog-heading">
+            My Blogs
+        </div>
+        <div class="blog-container">
+            <div class="blog-card">
+                <div class="card-image">
+                    <img src="Assets/dummy-image.jpg" alt="">
+                </div>
+                <div class="card-head"><h4>Lorem ipsum dolor sit amet.</h4></div>
+                  <div class="card-content">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ipsa laudantium culpa, et sit natus a repellat tempore commodi debitis quasi aut asperiores possimus amet.
+                  </div>
+                    <div class="card-buttons">
+                        <a href="blog.html" target="_blank"><button>Read More</button></a>
+                        <div class="like-counter" onclick="toggleLike1()">
+                            <img src="Assets/like-white.png" alt="">
+                            <span>0</span>
+                         </div>
+                    </div>
+            </div>
+            <div class="blog-card">
+                <div class="card-image">
+                    <img src="Assets/dummy-image.jpg" alt="">
+                </div>
+                <div class="card-head"><h4>Lorem ipsum dolor sit amet.</h4></div>
+                  <div class="card-content">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ipsa laudantium culpa, et sit natus a repellat tempore commodi debitis quasi aut asperiores possimus amet.
+                  </div>
+                    <div class="card-buttons">
+                      <a href="blog.html" target="_blank"><button>Read More</button></a>
+                         <div class="like-counter" onclick="toggleLike2()">
+                            <img src="Assets/like-white.png" alt="">
+                            <span>0</span>
+                         </div>
+                    </div>
+            </div>
+            <div class="blog-card">
+                <div class="card-image">
+                    <img src="Assets/dummy-image.jpg" alt="">
+                </div>
+                <div class="card-head"><h4>Lorem ipsum dolor sit amet.</h4></div>
+                  <div class="card-content">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ipsa laudantium culpa, et sit natus a repellat tempore commodi debitis quasi aut asperiores possimus amet.
+                  </div>
+                    <div class="card-buttons">
+                      <a href="blog.html" target="_blank"><button>Read More</button></a>
+                        <div class="like-counter" onclick="toggleLike3()">
+                            <img src="Assets/like-white.png" alt="">
+                            <span>0</span>
+                         </div>
+                    </div>
+            </div>
+            
+        </div>
+    </section>
+    
+    <section id="about-section">
+        <div class="about-section-heading">About Me</div>
+        <div class="about-section-main">
+            <div class="about-section-image">
+                <img src="Assets/standing-pose.png" alt="standing-pose">
+            </div>
+            <div class="about-section-content">
+                Hey, I'm Shubham – a <b>coding</b>  enthusiast, builder, and
+                 <b>startup</b>  enthusiast  <span> 🚀</span>.  I thrive on experimenting with new ideas and crafting digital solutions. When I'm not immersed in code, you'll catch me on the <b>soccer</b> field, where my passion for the game takes center stage. Beyond that, I'm a <b>bathroom singer</b> , embracing the joy of spontaneous tunes. Let's connect and make things happen!
+
+            </div>
+        </div>
+    </section>
+
+    <section id="education-section">
+       
+    <div class="timeline">
+        <div class="outer">
+          <div class="card">
+            <div class="info">
+              <h3 class="title">The Millennium School,Patiala</h3>
+              <p>(class: 1-10) </p>
+              <p>CBSE 10th board: 95%</p>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint enim incidunt recusandae, dolores ullam adipisci!</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="info">
+              <h3 class="title">Apollo Public School</h3>
+              <p>(class: 11-12)</p>
+              <p>CBSE 12th board: 92%</p>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint enim incidunt recusandae, dolores ullam adipisci!</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="info">
+              <h3 class="title">IQUEST,Patiala</h3>
+              <p>JEE coaching</p>
+              <p>JEE Mains: AIR 825</p>
+              <p>JEE Advance: AIR 3482</p>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint enim incidunt recusandae, dolores ullam adipisci!</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="info">
+              <h3 class="title">IIIT HYDERABAD</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+              
+            </div>
+          </div>
+         
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills-section">
+        <div class="skill">C</div>
+        <div class="skill">C++</div>
+        <div class="skill">HTML</div>
+          <div class="skill">CSS</div>
+          <div class="skill">Javascript</div>
+          <div class="skill">Python</div>
+          <div class="skill">Flask</div>
+          <div class="skill">bash</div>
+          <div class="skill">Git</div>
+          
+
+    </section>
+
+    <section id="achievement-section">
+      <div class="ach">
+        <div class="ach-image">
+             <img src="Assets/acad.png" alt="">
+        </div>
+        <div class="ach-content">
+            <div>JEE MAINS (AIR 825)</div>
+            <div>JEE ADVANCE (AIR 3482)</div>
+        </div>
+      </div>
+      <div class="ach">
+        <div class="ach-image">
+               <img src="Assets/taekwondo.png" alt="">
+        </div>
+        <div class="ach-content">
+             <div>Taekwondo</div>
+             <div>International Silver Medalist</div>
+             <div>black belt</div>
+        </div>
+      </div>
+      <div class="ach">
+        <div class="ach-image">
+  <img src="Assets/abacus.png" alt="">
+        </div>
+        <div class="ach-content">
+          <div>Abacus</div>
+             <div>2nd in Nationals</div>
+             <div>100 Q in 13.38s</div>
+        </div>
+      </div>
+      <div class="ach">
+        <div class="ach-image">
+  <img src="Assets/football.png" alt="">
+        </div>
+        <div class="ach-content">
+<div>Football</div>
+<div>1st in Zonals U-14</div>
+<div>4th in Zonals U-17</div>
+<div>Selected for U-14 and U-17 District</div>
+        </div>
+      </div>
+    </section>
+    <!-- <script>
+        var typed = new Typed('#element', {
+          strings: ['Student At IIIT Hyderabad', 'Computer Science Engineering','Frontend Developer'],
+          typeSpeed: 50,
+          backSpeed: 50,
+          loop: true
+        });
+      </script> -->
+    <script src="script.js"></script>
+
+</body>
+</html>
