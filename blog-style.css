@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -19,9 +21,10 @@ body{
 }
 
 .blog {
+ 
     margin: auto;
     min-height: 80vh;
-    width: 60rem;
+    max-width: 60rem;
     display: flex;
     flex-direction: column;
 }
@@ -33,33 +36,38 @@ body{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    height: 10rem;
+    min-height: 10rem;
 }
 
 .blog-content {
     font-size: 1.2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     min-height: 70vh;
+    text-align: center;
 
 }
 
 .comment-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: auto;
-    height: 85vh;
-    width: 50vw;
+    min-height: 85vh;
+    max-width:50rem;
 
 }
 
 .comment-display {
     padding: 2rem;
-    height: 50vh;
+    min-height: 25rem;
     overflow: scroll;
 }
 
 .comment {
     border-radius: 0.5rem;
-  height: 10rem;
-  width: 25rem;
+  height: 8rem;
+  width: 20rem;
   background-color: #86674b8a;
   margin: 1rem;
   color: white;
@@ -81,15 +89,18 @@ body{
 }
 
 .add-comment {
+    margin:auto;
+    
     padding: 1rem;
-    min-height: 40vh;
+    min-height: 20rem;;
+    max-width:30rem;
 }
 
 .add-comment textarea {
     display: block;
-    margin: auto;
-    width: 80%;
-    min-height: 30vh;
+  
+    max-width:40rem;
+    min-height:10rem;
     padding: 1rem;
     font-size: 1rem;
 }
@@ -119,7 +130,7 @@ body{
 }
 
 .add-comment-buttons button:last-child{
-    background-color: rgb(109, 10, 10);
-    border:1px solid rgb(109, 10, 10);
+    background-color: green;
+    border:1px solid green;
     width:5rem;
 }
